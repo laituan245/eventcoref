@@ -9,6 +9,12 @@ You can install the dependencies for the project using the following command:
 pip install -r requirements.txt
 ```
 
+Also you will need to set the permission for the evaluation script
+```
+chmod +x reference-coreference-scorers-8.01/scorer.pl
+```
+
+
 To train a basic model, run the following command:
 ```
 python runner.py -c basic
